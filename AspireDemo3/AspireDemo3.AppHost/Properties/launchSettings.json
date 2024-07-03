@@ -12,6 +12,7 @@
         "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:22212"
       },
       "launchBrowser": true
+      //,"commandLineArgs": "--publisher manifest --output-path aspire-manifest.json"
     },
     "http": {
       "applicationUrl": "http://localhost:15030",
