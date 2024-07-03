@@ -19,6 +19,7 @@ dotnet run --project .\Aspiredemo3.AppHost\Aspiredemo3.AppHost.csproj --publishe
 azd auth login --scope https://management.azure.com//.default
 
 D:\TSA\dotnet-aspire-demo3\Aspiredemo3\Aspiredemo3.AppHost> azd config set alpha.infraSynth on
+D:\TSA\dotnet-aspire-demo3\Aspiredemo3\Aspiredemo3.AppHost> azd config set infrastructure.provider terraform
 D:\TSA\dotnet-aspire-demo3\Aspiredemo3\Aspiredemo3.AppHost> azd infra synth
 
 azd up
