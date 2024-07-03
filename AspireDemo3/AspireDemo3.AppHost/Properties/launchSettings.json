@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "AspireDemo3.AppHost": {
+      "applicationUrl": "https://localhost:17299;http://localhost:15030",
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_ENVIRONMENT": "Development",
+        "DOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "https://localhost:21298",
+        "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:22212"
+      },
+      "launchBrowser": true
+      //,"commandLineArgs": "--publisher manifest --output-path aspire-manifest.json"
+    },
+    "http": {
+      "applicationUrl": "http://localhost:15030",
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_ENVIRONMENT": "Development",
+        "DOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "http://localhost:19146",
+        "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "http://localhost:20078"
+      },
+      "launchBrowser": true
+    }
+  }
+}
